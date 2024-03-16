@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/10_IRQ/bsp/clk",
+                "${workspaceFolder}/10_IRQ/bsp/delay",
+                "${workspaceFolder}/10_IRQ/bsp/GPIO",
+                "${workspaceFolder}/10_IRQ/bsp/key",
+                "${workspaceFolder}/10_IRQ/bsp/led",
+                "${workspaceFolder}/10_IRQ/bsp/int",
+                "${workspaceFolder}/10_IRQ/imx6ull"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

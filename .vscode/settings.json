@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.s": "arm",
+        "config.h": "c",
+        "gpio.h": "c",
+        "ccm.h": "c",
+        "mcimx6y2.h": "c",
+        "key.h": "c",
+        "fsl_iomuxc.h": "c",
+        "fsl_common.h": "c",
+        "int.h": "c"
+    }
+}

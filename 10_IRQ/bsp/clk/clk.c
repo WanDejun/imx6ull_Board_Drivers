@@ -19,10 +19,10 @@ void ARM_clk_init() {
 	}
 	
 	CCM_ANALOG->PLL_ARM &= ~(0x7f); // 清空低 7 位
-	CCM_ANALOG->PLL_ARM |= (88 | (1 << 13)); // 设置 pll1_main_clk(PLL1) 倍频为 72
+	CCM_ANALOG->PLL_ARM |= (81 | (1 << 13)); // 设置 pll1_main_clk(PLL1) 倍频为 72
 
 	CCM->CCSR &= ~(1 << 2); // pll1_sw_clk 选择为 pll1_main_clk
-	CCM->CACRR = 1; // ARM_CLK_ROOT二分频
+	CCM->CACRR = 0; // ARM_CLK_ROOT二分频
 
 	uint32_t reg = 0;
 

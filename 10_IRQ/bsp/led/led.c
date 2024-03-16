@@ -1,5 +1,5 @@
 #include "led.h"
-#include "gpio.h"
+#include "GPIO.h"
 #include "fsl_iomuxc.h"
 #include "fsl_common.h"
 #include "MCIMX6Y2.h"
@@ -28,7 +28,7 @@ void led_init(void) {
 	GPIO1->GDIR = 0X0000008;	/* GPIO1_IO03设置为输出 */
 
 	/* 4、设置GPIO1_IO03输出高电平，关闭LED0 */	
-	GPIO1->DR |= (1 << 3); 
+	GPIO1->DR |= (1 << 3);
 }
 
 inline void led_on(void) {
