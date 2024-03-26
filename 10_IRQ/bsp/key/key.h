@@ -3,6 +3,8 @@
 #include "cc.h"
 #include "MCIMX6Y2.h"
 
+#define KEY0 GPIO_Pin_18
+
 typedef enum {
 	KEY_OFF = OFF,
 	KEY_ON = ON

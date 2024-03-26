@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "clk.h": "c",
+        "i2c.h": "c",
+        "mpu6050.h": "c",
+        "gpio.h": "c",
+        "mpu6050_reg.h": "c",
+        "lcd_backlight.h": "c",
+        "config.h": "c",
+        "delay.h": "c",
+        "pwm.h": "c"
+    }
+}

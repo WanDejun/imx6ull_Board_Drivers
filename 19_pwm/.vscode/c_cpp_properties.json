@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/bsp/clk",
+                "${workspaceFolder}/bsp/delay",
+                "${workspaceFolder}/bsp/GPIO",
+                "${workspaceFolder}/bsp/key",
+                "${workspaceFolder}/bsp/led",
+                "${workspaceFolder}/bsp/int",
+                "${workspaceFolder}/bsp/EXTI",
+                "${workspaceFolder}/bsp/EPIT",
+                "${workspaceFolder}/bsp/UART",
+                "${workspaceFolder}/bsp/pwm_by_GPT",
+                "${workspaceFolder}/bsp/LCD_BackLight",
+                "${workspaceFolder}/bsp/PWM",
+                "${workspaceFolder}/bsp/UART_print",
+                "${workspaceFolder}/bsp/rgblcd",
+                "${workspaceFolder}/bsp/i2c",
+                "${workspaceFolder}/imx6ull"
+            ]
+        }
+    ],
+    "version": 4
+}

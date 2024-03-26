@@ -1,0 +1,32 @@
+obj/bsp/key/key.o: bsp/key/key.c bsp/key/key.h imx6ull/cc.h \
+ imx6ull/MCIMX6Y2.h imx6ull/cc.h bsp/GPIO/GPIO.h imx6ull/fsl_iomuxc.h \
+ imx6ull/MCIMX6Y2.h imx6ull/fsl_common.h bsp/delay/delay.h bsp/int/int.h \
+ imx6ull/config.h imx6ull/fsl_iomuxc.h imx6ull/core_ca7.h bsp/led/led.h
+
+bsp/key/key.h:
+
+imx6ull/cc.h:
+
+imx6ull/MCIMX6Y2.h:
+
+imx6ull/cc.h:
+
+bsp/GPIO/GPIO.h:
+
+imx6ull/fsl_iomuxc.h:
+
+imx6ull/MCIMX6Y2.h:
+
+imx6ull/fsl_common.h:
+
+bsp/delay/delay.h:
+
+bsp/int/int.h:
+
+imx6ull/config.h:
+
+imx6ull/fsl_iomuxc.h:
+
+imx6ull/core_ca7.h:
+
+bsp/led/led.h:
